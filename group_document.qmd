@@ -6,6 +6,18 @@ editor: visual
 
 ## Laura
 
+Holaa
+
+```{r}
+#first
+
+```
+
+```{r}
+#second
+
+```
+
 ## Chen
 
 ## Hongjin
