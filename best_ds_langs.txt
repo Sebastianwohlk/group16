@@ -8,4 +8,9 @@ Top 10 Data Science Languages of ALL Time:
 4. has
 3. different
 2. tastes
+<<<<<<< HEAD
 1. Shit
+=======
+1. R
+0. THIS IS MUTINY
+>>>>>>> 246e2ac11df635916a678e10012cdbe90b807f3e
