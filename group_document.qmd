@@ -6,7 +6,39 @@ editor: visual
 
 ## Laura
 
+Holaa
+
+```{r}
+#first
+
+```
+
+```{r}
+#second
+
+```
+
 ## Chen
+
+-   **T1:** Find the `GitHub` repository for the `ggplot2` R-package
+
+-   **Q1:** How many Contributors are there?
+
+    295
+
+-   **T1:** Find the `GitHub` repository for the `Linux kernel`
+
+-   **Q2:** How many Contributors are there?
+
+    5000+
+
+-   **Q3:** Discuss in your group why having an organised approach to version control is central? And consider the simple contrast of the challenges you were facing when doing the course assignments.
+
+This matters because, first of all, files are organised and reproducible and, second, you can go back and regenerate a former version if anything goes wrong. This would have been nice for collaborating, so that everyone shares the same final document.
+
+-   **Q4:** Discuss in your group, what happened and why? Try copying the message and paste it into google, did you get any hits?
+
+R doesn't have our GitHub credentials and we should use the access token instead of the password
 
 ## Hongjin
 
