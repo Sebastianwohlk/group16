@@ -9,8 +9,13 @@ Top 10 Data Science Languages of ALL Time:
 3. different
 2. tastes
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Shit
 =======
 1. R
 0. THIS IS MUTINY
 >>>>>>> 246e2ac11df635916a678e10012cdbe90b807f3e
+=======
+1. Holaaa
+0. THIS IS MUTINY
+>>>>>>> b3f17f1f92cfee98f8aca6f09e3fb25ef88d41d0
