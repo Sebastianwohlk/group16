@@ -6,7 +6,15 @@ editor: visual
 
 ## Laura
 
-Holaa
+### New analysis
+
+```{r}
+# import important librarys
+
+library(ggplot2)
+library(tidyverse)
+
+```
 
 ```{r}
 #first
