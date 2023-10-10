@@ -11,7 +11,7 @@ editor: visual
 ```{r}
 library(tidyverse)
 library(broom)
-library(cowplot)
+#library(cowplot)
 ```
 
 It seems cowplot is not installed in the web server
