@@ -70,4 +70,25 @@ This matters because, first of all, files are organised and reproducible and, se
 
 R doesn't have our GitHub credentials and we should use the access token instead of the password
 
+-   **Q4:** Again, find the `ggplot` GitHub site and see if you can find how many branches there are?
+
+71
+
+### New analysis
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+x <- seq(1,9)
+y <- seq(9,1)
+
+ggplot(  mapping = aes(x=x,
+                       y=y))+
+  geom_point(size = 1) 
+  labs(title = "Beautiful scatterplot")
+  theme_minimal()
+```
+
 ## Celina
