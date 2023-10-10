@@ -19,6 +19,7 @@ It seems cowplot is not installed in the web server
 ### Look at the data in PC coordinates 1
 
 ```{r}
+#| message: false
 biopsy <- read_csv("https://wilkelab.org/classes/SDS348/data_sets/biopsy.csv")
 ```
 
@@ -39,6 +40,8 @@ pca_fit |>
 ```
 
 Removed theme_half_open and background_grid due to an error
+
+The scatter plot showing the data points projected onto the first two principal components (PC1 and PC2).The plot did not include arrows indicating the directions of PC1 and PC2 which can provide insights into the relationship between these principal components.
 
 ### Look at the data in PC coordinates 2
 
@@ -74,6 +77,8 @@ pca_fit |>
 
 Removed "theme_minimal_grid(12) because of an error
 
+However, the rotation matrix plot shows that the directions of each variables based on PC1 and PC2. The orientation of each vector can provide insights into the relationship between these principal components. The vector 'mitoses' indicates that the variable mitoses mainly explained by PC1 and the other variables can be explained by PC2.
+
 ### Look at the variance explained by each PC
 
 Looking at the variance explained by each PC using eigenvalues
@@ -99,6 +104,8 @@ pca_fit |>
 
 Again removing the the theme due to an error
 
+The first princinple component explains the dominant source of the variability in the data, which captures around 65% of the variance. The drop off from the first to the second pc is significant, as it only contains around 9% of the variance, but it still influential and important for understanding the complexity of the dataset.
+
 ## Laura
 
 ### New analysis
@@ -123,7 +130,7 @@ library(tidyverse)
 
 ## Chen
 
-![](https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/387499971_1548144332600014_6919448745266564562_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Xhhxtk6B0nEAX-ymIfB&_nc_ht=scontent-arn2-1.xx&oh=03_AdRcZR6gvJcFHfsJlYH6xEGz0fvNUIQYu_eFV1ZxpT0FVA&oe=654C7A2B)
+![](https://scontent-arn2-1.xx.fbcdn.net/v/t1.15752-9/387499971_1548144332600014_6919448745266564562_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Xhhxtk6B0nEAX-ymIfB&_nc_ht=scontent-arn2-1.xx&oh=03_AdRcZR6gvJcFHfsJlYH6xEGz0fvNUIQYu_eFV1ZxpT0FVA&oe=654C7A2B){width="128"}
 
 ### New New
 
