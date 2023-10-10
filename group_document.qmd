@@ -40,6 +40,8 @@ pca_fit |>
 
 Removed theme_half_open and background_grid due to an error
 
+The scatter plot showing the data points projected onto the first two principal components (PC1 and PC2).The plot did not include arrows indicating the directions of PC1 and PC2 which can provide insights into the relationship between these principal components.
+
 ### Look at the data in PC coordinates 2
 
 ```{r}
@@ -73,6 +75,8 @@ pca_fit |>
 ```
 
 Removed "theme_minimal_grid(12) because of an error
+
+However, the rotation matrix plot shows that the directions of each variables based on PC1 and PC2. The orientation of each vector can provide insights into the relationship between these principal components. The vector 'mitoses' indicates that the variable mitoses mainly explained by PC1 and the other variables can be explained by PC2.
 
 ### Look at the variance explained by each PC
 
