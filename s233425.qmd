@@ -24,4 +24,4 @@ This matters because, first of all, files are organised and reproducible and, se
 
 -   **Q4:** Discuss in your group, what happened and why? Try copying the message and paste it into google, did you get any hits?
 
-R doesn't have our GitHub credentials and we shouldn't use the password
+R doesn't have our GitHub credentials and we should use the access token instead of the password
